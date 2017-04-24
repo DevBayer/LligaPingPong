@@ -37,6 +37,10 @@
       <HintPath>..\packages\FirebaseDatabase.net.2.0.2\lib\portable45-net45+win8+wpa81\Firebase.Database.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Firebase.Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebaseStorage.net.1.0.0-alpha5\lib\portable45-net45+win8+wpa81\Firebase.Storage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -76,21 +80,49 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEditPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditPlayer.Designer.cs">
+      <DependentUpon>FormEditPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPlayer.Designer.cs">
+      <DependentUpon>FormAddPlayer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLigue.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLigue.Designer.cs">
       <DependentUpon>FormLigue.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLigueDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLigueDetails.Designer.cs">
+      <DependentUpon>FormLigueDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="League.cs" />
     <Compile Include="Manager.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEditPlayer.resx">
+      <DependentUpon>FormEditPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPlayer.resx">
+      <DependentUpon>FormAddPlayer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLigue.resx">
       <DependentUpon>FormLigue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLigueDetails.resx">
+      <DependentUpon>FormLigueDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

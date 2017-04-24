@@ -81,12 +81,4 @@ namespace LligaPingPong
         [JsonProperty("Timestamp")]
         public ServerTimeStamp TimestampPlaceholder { get; } = new ServerTimeStamp();
     }
-
-    public class ServerTimeStamp
-    {
-        [JsonProperty(".sv")]
-        public string TimestampPlaceholder { get; } = "timestamp";
-    }
-
-
 }

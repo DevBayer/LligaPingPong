@@ -19,3 +19,7 @@ C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPing
 C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\bin\Debug\System.Reactive.Interfaces.xml
 C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\bin\Debug\System.Reactive.Linq.xml
 C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\obj\Debug\LligaPingPong.FormLigueDetails.resources
+C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\obj\Debug\LligaPingPong.FormAddPlayer.resources
+C:\Users\23878410v\documents\visual studio 2015\Projects\LligaPingPong\LligaPingPong\bin\Debug\Firebase.Storage.dll
+C:\Users\23878410v\Documents\Visual Studio 2015\Projects\LligaPingPong\LligaPingPong\obj\Debug\LligaPingPong.FormEditPlayer.resources
